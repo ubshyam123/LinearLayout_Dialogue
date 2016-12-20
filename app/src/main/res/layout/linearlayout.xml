@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL"
+        android:id="@+id/emailLabel"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:labelFor="@+id/emailBox"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailBox"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:text="LOGIN"
+        android:padding="15dp"/>
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:text="Dialogue Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogButton" />
+</LinearLayout>
